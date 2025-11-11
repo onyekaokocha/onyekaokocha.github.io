@@ -1,14 +1,66 @@
-<html>
-  <head>
-    <title>My Portfolio - Onyeka</title>
-  </head>
-  <body>
-    <h1>Hello, I’m Onyeka 👋</h1>
-    <p>I’m a Data analyst and i am constantly building!</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Onyeka Okocha — Data Portfolio</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;margin:0;padding:24px;background:#f7f7f8;color:#111}
+    .card{background:white;border-radius:12px;padding:20px;max-width:780px;margin:20px auto;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+    header{display:flex;gap:16px;align-items:center}
+    img.avatar{width:88px;height:88px;border-radius:50%;object-fit:cover}
+    h1{margin:0;font-size:22px}
+    p.lead{margin:6px 0 0;color:#444}
+    ul{padding-left:18px}
+    a{color:#0366d6;text-decoration:none}
+    .project{border-top:1px dashed #eee;padding-top:14px;margin-top:14px}
+    footer{font-size:13px;color:#666;margin-top:18px}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px;background:#0366d6;color:white;text-decoration:none}
+    .small{font-size:13px;color:#555}
+    pre{background:#f2f6fa;padding:12px;border-radius:8px;overflow:auto}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <header>
+      <img class="avatar" src="avatar.png" alt="Onyeka Okocha photo or avatar" />
+      <div>
+        <h1>Hi — I’m <strong>Onyeka Okocha</strong></h1>
+        <p class="lead">I’m a Data Analyst and I am constantly building.</p>
+        <p class="small">Contact: <a href="mailto:okochaonyeka2020@gmail.com">okochaonyeka2020@gmail.com</a> • GitHub: <a href="https://github.com/onyekaokocha">@onyekaokocha</a></p>
+      </div>
+    </header>
 
-    <h2>My Projects</h2>
-    <ul>
-      <li><a href="https://github.com/onyekaokocha/Billionaires Statistics Dataset (Guided project)">My First Project</a></li>
-    </ul>
-  </body>
+    <section>
+      <h2 style="margin-top:18px">Projects</h2>
+
+      <div class="project">
+        <h3>Billionaires Statistics Dataset (Guided Project)</h3>
+        <p class="small">A guided data analytics project exploring global billionaires’ statistics. Focused on data cleaning, trend analysis, and visualization.</p>
+        <p><a class="btn" href="https://github.com/onyekaokocha/My-Data-Analytics-Project" target="_blank">View on GitHub</a></p>
+      </div>
+    </section>
+
+    <section>
+      <h2 style="margin-top:18px">Skills</h2>
+      <p class="small">Excel • Google Sheets • SQL • Zoho CRM • Python (pandas) • Power BI • Tableau • Data Visualization (charts and dashboards)</p>
+    </section>
+
+    <section>
+      <h2 style="margin-top:18px">How to edit this page</h2>
+      <ol>
+        <li>Open the repository named <code>onyekaokocha.github.io</code> on GitHub.</li>
+        <li>Click the <strong>index.html</strong> file and then the pencil ✏️ to edit it in the browser.</li>
+        <li>Replace the email with your real contact if you’d like.</li>
+        <li>Add more projects by copying the project block above.</li>
+        <li>Click <strong>Commit changes</strong> when done.</li>
+        <li>Visit <code>https://onyekaokocha.github.io</code> to see your live portfolio.</li>
+      </ol>
+    </section>
+
+    <footer>
+      Built with a simple beginner template • Keep building, Onyeka — you got this! 🎉
+    </footer>
+  </div>
+</body>
 </html>
